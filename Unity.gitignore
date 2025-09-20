@@ -3,14 +3,14 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
-./ProjectFolder/2DProceduralRaceGame/[Ll]ibrary/
-./ProjectFolder/2DProceduralRaceGame/[Tt]emp/
-./ProjectFolder/2DProceduralRaceGame/[Oo]bj/
-./ProjectFolder/2DProceduralRaceGame/[Bb]uild/
-./ProjectFolder/2DProceduralRaceGame/[Bb]uilds/
-./ProjectFolder/2DProceduralRaceGame/[Ll]ogs/
-./ProjectFolder/2DProceduralRaceGame/[Uu]ser[Ss]ettings/
-./ProjectFolder/2DProceduralRaceGame
+/ProjectFolder/2DProceduralRaceGame/[Ll]ibrary/
+/ProjectFolder/2DProceduralRaceGame/[Tt]emp/
+/ProjectFolder/2DProceduralRaceGame/[Oo]bj/
+/ProjectFolder/2DProceduralRaceGame/[Bb]uild/
+/ProjectFolder/2DProceduralRaceGame/[Bb]uilds/
+/ProjectFolder/2DProceduralRaceGame/[Ll]ogs/
+/ProjectFolder/2DProceduralRaceGame/[Uu]ser[Ss]ettings/
+/ProjectFolder/2DProceduralRaceGame
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
@@ -19,10 +19,10 @@
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
-./ProjectFolder/2DProceduralRaceGame/[Mm]emoryCaptures/
+/ProjectFolder/2DProceduralRaceGame/[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
-./ProjectFolder/2DProceduralRaceGame/[Rr]ecordings/
+/ProjectFolder/2DProceduralRaceGame/[Rr]ecordings/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -81,20 +81,20 @@ crashlytics-build.properties
 InitTestScene*.unity*
 
 # Addressables default ignores, before user customizations
-./ProjectFolder/2DProceduralRaceGame/ServerData
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/StreamingAssets/aa*
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/AddressableAssetsData/link.xml*
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Addressables_Temp*
+/ProjectFolder/2DProceduralRaceGame/ServerData
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/StreamingAssets/aa*
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/AddressableAssetsData/link.xml*
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Addressables_Temp*
 # By default, Addressables content builds will generate addressables_content_state.bin
 # files in platform-specific subfolders, for example:
 # /Assets/AddressableAssetsData/OSX/addressables_content_state.bin
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/AddressableAssetsData/*/*.bin*
 
 # Visual Scripting auto-generated files
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 
 # Auto-generated scenes by play mode tests
-./ProjectFolder/2DProceduralRaceGame/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/ProjectFolder/2DProceduralRaceGame/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
