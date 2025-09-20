@@ -3,14 +3,14 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
-/ProjectFolder/2DProceduralRaceGame/[Ll]ibrary/*
-/ProjectFolder/2DProceduralRaceGame/[Tt]emp/*
-/ProjectFolder/2DProceduralRaceGame/[Oo]bj/*
-/ProjectFolder/2DProceduralRaceGame/[Bb]uild/*
-/ProjectFolder/2DProceduralRaceGame/[Bb]uilds/*
-/ProjectFolder/2DProceduralRaceGame/[Ll]ogs/*
-/ProjectFolder/2DProceduralRaceGame/[Uu]ser[Ss]ettings/*
-/ProjectFolder/2DProceduralRaceGame/Library/PackageCache/*
+ProjectFolder/2DProceduralRaceGame/[Ll]ibrary/*
+ProjectFolder/2DProceduralRaceGame/[Tt]emp/*
+ProjectFolder/2DProceduralRaceGame/[Oo]bj/*
+ProjectFolder/2DProceduralRaceGame/[Bb]uild/*
+ProjectFolder/2DProceduralRaceGame/[Bb]uilds/*
+ProjectFolder/2DProceduralRaceGame/[Ll]ogs/*
+ProjectFolder/2DProceduralRaceGame/[Uu]ser[Ss]ettings/*
+ProjectFolder/2DProceduralRaceGame/Library/PackageCache/*
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
