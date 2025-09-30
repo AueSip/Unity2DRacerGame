@@ -12,22 +12,22 @@ public class S_PlayerController : MonoBehaviour
     public Transform mini;
     int inputDirection = 1;
     int rotDirection = 1;
-    float maxSpeed = 0.0085f;
+    float maxSpeed = 1.85f;
 
     float speedScale = 1;
 
     float driftSpeedScale = 0.67f;
     float CarRotation = 0;
-    float reverseSpeed = -0.0035f;
-    float Acceleration = 0.00015f;
+    float reverseSpeed = -0.65f;
+    float Acceleration = 0.025f;
     float minAcceleration = -1f;
     float maxAcceleration = 1f;
     //S = D/T
-    float timeToAccelerate = 5f;
+    float timeToAccelerate = 3f;
 
-    float timeToSlow = 250f;
+    float timeToSlow = 8f;
     float fric_Handling = 0.4f;
-    float turn_Rate = 40000;
+    float turn_Rate = 125f;
 
     float currentMiniRotZ = 0f;
     float driftRotationRate = 150f;
@@ -43,7 +43,7 @@ public class S_PlayerController : MonoBehaviour
 
     float SpeedCalculation()
     {
-        CurrentAcceleration += (Acceleration / timeToAccelerate * Time.deltaTime) * inputDirection;
+        CurrentAcceleration += ((Acceleration / timeToAccelerate) * inputDirection)  * Time.deltaTime;
         return CurrentAcceleration = Mathf.Clamp(CurrentAcceleration, minAcceleration, maxAcceleration);
     }
 
@@ -137,7 +137,7 @@ public class S_PlayerController : MonoBehaviour
 
         
 
-        transform.Translate(Vector3.up * SetSpeed((GetSpeed() + CurrentAcceleration)) * speedScale);
+        transform.Translate(Vector3.up * (SetSpeed((GetSpeed() + CurrentAcceleration)) * speedScale) * Time.deltaTime);
 
 
         
